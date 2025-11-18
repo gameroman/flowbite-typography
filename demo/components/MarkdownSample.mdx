@@ -256,11 +256,55 @@ We even included table styles, check it out:
 
 | Wrestler                | Origin       | Finisher           |
 | ----------------------- | ------------ | ------------------ |
-| Bret "The Hitman" Hart  | Calgary, AB  | Sharpshooter       |
+| <p>Bret "The Hitman" Hart</p>  | Calgary, AB  | Sharpshooter       |
 | Stone Cold Steve Austin | Austin, TX   | Stone Cold Stunner |
 | Randy Savage            | Sarasota, FL | Elbow Drop         |
 | Vader                   | Boulder, CO  | Vader Bomb         |
 | Razor Ramon             | Chuluota, FL | Razor's Edge       |
+
+
+<table>
+   <colgroup>
+      <col></col>
+      <col></col>
+      <col></col>
+   </colgroup>
+   <tbody>
+      <tr>
+         <th colspan="1" rowspan="1">
+            <p>Item name</p>
+         </th>
+         <th colspan="1" rowspan="1">
+            <p>Stock</p>
+         </th>
+         <th colspan="1" rowspan="1">
+            <p>Price</p>
+         </th>
+      </tr>
+      <tr>
+         <td colspan="1" rowspan="1">
+            <p>iPhone 17</p>
+         </td>
+         <td colspan="1" rowspan="1">
+            <p>5000 units</p>
+         </td>
+         <td colspan="1" rowspan="1">
+            <p>1500 USD</p>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="1" rowspan="1">
+            <p>Samsung Galaxy S23</p>
+         </td>
+         <td colspan="1" rowspan="1">
+            <p>2000 units</p>
+         </td>
+         <td colspan="1" rowspan="1">
+            <p>1300 USD</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 We also need to make sure inline code looks good, like if I wanted to talk about `<span>` elements or tell you the good news about `@tailwindcss/typography`.
 
